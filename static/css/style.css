@@ -1,0 +1,112 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#map,
+body,
+html {
+    height: 100%;
+}
+
+
+/* http://jsfiddle.net/7291hLkx/2/ */
+
+#map {
+    /* Set rules to fill background  */
+    height: 100%;
+    width: 100%;
+    /* Set up positioning  */
+    position: absolute;
+    top: 0px;
+    left: 0;
+    border-top: 65px solid whitesmoke;
+}
+
+nav {
+    height: 65px;
+}
+
+h3 {
+    text-align: right;
+}
+
+nav {
+    background-color: transparent;
+    color: #000000;
+}
+
+.navbar-brand {
+    font-size: 25px;
+    font-weight: normal;
+    text-align: middle;
+    margin-left: 10px;
+}
+
+
+/* Set logo */
+
+
+/* .logo {
+    width: 70px;
+    padding: 5px 0;
+} */
+
+.leaflet-popup-content {
+    text-align: center;
+}
+
+.info {
+    padding: 6px 8px;
+    font: 16px/18px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.info h5 {
+    margin: 0 0 5px;
+    color: #777;
+}
+
+.info h6 {
+    margin: 0 0 3px;
+    color: #555;
+}
+
+.legend {
+    line-height: 18px;
+    color: #555;
+}
+
+.legend i {
+    width: 18px;
+    height: 15px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
+}
+
+.legend h4 {
+    text-align: center;
+    font-size: 16px;
+    margin: 2px 12px 8px;
+    color: black;
+}
+
+.my-label {
+    position: absolute;
+    font: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 400px;
+    font-size: 25px;
+    background: white;
+}
+
+.leaflet-tooltip-top:before,
+.leaflet-tooltip-bottom:before,
+.leaflet-tooltip-left:before,
+.leaflet-tooltip-right:before {
+    border: none !important;
+}
